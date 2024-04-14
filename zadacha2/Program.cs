@@ -1,7 +1,8 @@
-﻿
-Book book1 = new Book("Война и мир", "Лев Толстой", 1869);
-book1.PrintInfo(); 
+﻿Circle circle1 = new Circle(5);
 
 
-book1.Year = 1870;
-book1.PrintInfo(); 
+double circumference = circle1.CalculateCircumference();
+double area = circle1.CalculateArea();
+
+Console.WriteLine($"Обиколката на кръга е: {circumference}");
+Console.WriteLine($"Лицето на кръга е: {area}");
